@@ -1,0 +1,1 @@
+Kampa, A., Gołda, G., & Paprocka, I. (2017). Discrete event simulation method as a tool for improvement of manufacturing systems. *Computers, 6*(1), Article 10. https://doi.org/10.3390/computers6010010
