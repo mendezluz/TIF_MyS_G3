@@ -19,9 +19,6 @@ Pbh = 0.9973
 MTBFm = 500 * hora
 MTTRm = 4 * hora
 
-
-MTBFmm = 1000 * hora
-
 # Robot
 tiempo_manipulacion = 1
 MTBFr = 1000 * hora

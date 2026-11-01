@@ -1,5 +1,6 @@
 import numpy as np
 import parametros as p
+import modelo1 as m1
 
 def Modelo_robots(T, maquinas):
 
@@ -47,7 +48,7 @@ def Modelo_robots(T, maquinas):
   Pb = np.sum(estado)   # piezas buenas
   Pd = P - Pb
 
-  max_limit = t / p.ciclo_maquina
+  max_limit = m1.Modelo_ideal(t)
   oee = Pb / max_limit
 
   return fallas_r, fallas_m, P, Pb, Pd, oee
