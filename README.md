@@ -13,17 +13,22 @@ El proyecto consiste en la implementación y simulación de modelos de producci�
 ```text
 TIF_MyS_G3/
 │
-├── documentos/
-│   ├── documento1.pdf
-│   └── documento2.pdf
+├── articulo/
+│   ├── Discrete_E...ng_Systems.pdf
 │
 ├── notebooks/
-│   └── implementacion_robots.ipynb
-│
-├── modelo2.py
-├── parametros.py
+│   └── TFI_MyS.ipynb
+|
+├── scr/
+|    └── modelo1.py
+|    └── modelo2.py
+|    └── modelo3.py
+|    └── parametros.py
+|
+├── informe/
+│   └── TFI_MyS_G3.ipynb
 ├── requirements.txt
-│
+├── referencias.md
 └── README.md
 ```
 
@@ -48,14 +53,6 @@ El notebook descarga el repositorio de GitHub e instala las dependencias especif
 ```python
 !pip install -r /content/TIF_MyS_G3/requirements.txt
 ```
-
-## Implementación
-
-La implementación se encuentra organizada en los siguientes archivos:
-
-- **`modelo2.py`**: contiene la función de simulación del modelo de robots.
-- **`parametros.py`**: contiene los parámetros utilizados por los modelos.
-- **`notebooks/`**: contiene los experimentos, las ejecuciones de las simulaciones y el análisis de resultados.
 
 ## Resultados
 
